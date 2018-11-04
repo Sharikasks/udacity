@@ -1,0 +1,72 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #000;
+}
+header, section, article, div {
+  box-sizing: border-box;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+  margin: 0; 
+}
+
+/* Header */
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 50px;
+ }
+
+.header-main{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin: 5px 0px 5px 5px;
+}
+.title,
+.header-description {
+ 	color: #ee7600;
+ 	text-align: right;
+}
+/* Main */
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Content Section Below */
+
+/* Hero */
+.hero {
+  width: 100%;
+  position: relative;
+  background-image: url("./images/happy-home.jpg");
+  background-size: cover;
+  min-height: 500px;
+  margin: 15px 0px 0px 0px;
+ }
+
+/* Featured Work */
+.featured-work {
+	flex-grow: 1;
+}
+
